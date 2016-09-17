@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "meow": "^3.7.0",
+    "moment": "^2.15.0",
     "prompt": "^1.0.0"
   },
   "devDependencies": {

@@ -2,6 +2,7 @@
 
 'use strict';
 const prompt = require('prompt');
+const moment = require('moment');
 
 const schema = {
 	properties: {
@@ -30,5 +31,8 @@ prompt.get(schema, (err, result) => {
 		return onErr(err);
 	}
 	const dlTime = filesize / dlspeed;
-	console.log(dlTime);
+	const date = new Date(null);
+	date.setSeconds(dlTime);
+	const dlTimePretty = date.toISOString().substr(11, 8);
+	console.log('Your download time is: ' + dlTimePretty);
 });
