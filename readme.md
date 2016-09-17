@@ -6,63 +6,24 @@
 ## Install
 
 ```
-$ npm install --save dlcalc
+$ npm install -g dlcalc
 ```
+## What does it do?
+Allows you to calculate a rough estimate of download time, in your commandline.
 
 
 ## Usage
 
-```js
-const dlcalc = require('dlcalc');
-
-dlcalc('unicorns');
-//=> 'unicorns & rainbows'
+```sh
+dlcalc
 ```
 
+## Compatibility
+Should run on most systems, Windows, macOS, unix, etc etc.
 
-## API
-
-### dlcalc(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
-
-```
-$ npm install --global dlcalc
-```
-
-```
-$ dlcalc --help
-
-  Usage
-    dlcalc [input]
-
-  Options
-    --foo  Lorem ipsum [Default: false]
-
-  Examples
-    $ dlcalc
-    unicorns & rainbows
-    $ dlcalc ponies
-    ponies & rainbows
-```
-
+## Changelog
+See [CHANGELOG.md](https://github.com/willyb321/npm_cards/blob/master/CHANGELOG.md) for the changes happening.
 
 ## License
 
-MIT © [willyb321](http://tehsuperwilly.tech)
+MIT © [William Blythe](https://tehsuperwilly.tech)
