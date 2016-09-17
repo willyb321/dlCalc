@@ -4,17 +4,17 @@
 const prompt = require('prompt');
 
 const schema = {
-    properties: {
-      dlSpeed: {
-        description: 'Download speed in megabytes/s',
-        required: true
-      },
-      fileSize: {
-        description: 'File Size in megabytes',
-        required: true
-      }
-    }
-  };
+	properties: {
+		dlSpeed: {
+			description: 'Download speed in megabytes/s',
+			required: true
+		},
+		fileSize: {
+			description: 'File Size in megabytes',
+			required: true
+		}
+	}
+};
 
 prompt.start();
 
@@ -29,6 +29,6 @@ prompt.get(schema, (err, result) => {
 	if (err) {
 		return onErr(err);
 	}
-	const dlTime = filesize / dlspeed
+	const dlTime = filesize / dlspeed;
 	console.log(dlTime);
 });
