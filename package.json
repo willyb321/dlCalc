@@ -1,6 +1,6 @@
 {
   "name": "dlcalc",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Calculate DL time in the commandline",
   "license": "MIT",
   "repository": "willyb321/dlcalc",
