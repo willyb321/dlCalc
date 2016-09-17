@@ -1,4 +1,4 @@
-# dlcalc [![Build Status](https://travis-ci.org/willyb321/dlcalc.svg?branch=master)](https://travis-ci.org/willyb321/dlcalc)
+# dlcalc [![Build Status](https://travis-ci.org/willyb321/dlCalc.svg?branch=master)](https://travis-ci.org/willyb321/dlcalc)
 
 > Calculate DL time in the commandline
 
