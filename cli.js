@@ -3,6 +3,19 @@
 'use strict';
 const prompt = require('prompt');
 
+const schema = {
+    properties: {
+      dlSpeed: {
+        description: 'Download speed in megabytes/s',
+        required: true
+      },
+      fileSize: {
+        description: 'File Size in megabytes',
+        required: true
+      }
+    }
+  };
+
 prompt.start();
 
 function onErr(err) {
@@ -10,9 +23,9 @@ function onErr(err) {
 	return 1;
 }
 
-prompt.get(['DLSpeedmbyte', 'FileSizembyte'], (err, result) => {
-	const dlspeed = result.DLSpeedmbyte;
-	const filesize = result.FileSizembyte;
+prompt.get(schema, (err, result) => {
+	const dlspeed = result.dlSpeed;
+	const filesize = result.fileSize;
 	if (err) {
 		return onErr(err);
 	}
