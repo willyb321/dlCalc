@@ -2,7 +2,6 @@
 
 'use strict';
 const prompt = require('prompt');
-const moment = require('moment');
 
 const schema = {
 	properties: {
