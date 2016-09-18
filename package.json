@@ -23,13 +23,13 @@
   ],
   "keywords": [
     "cli-app",
-    "cli",
-    ""
+    "cli"
   ],
   "dependencies": {
     "meow": "^3.7.0",
     "moment": "^2.15.0",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "update-notifier": "^1.0.2"
   },
   "devDependencies": {
     "ava": "^0.15.2",

@@ -3,6 +3,17 @@
 'use strict';
 const prompt = require('prompt');
 const moment = require('moment');
+const updateNotifier = require('update-notifier');
+const pkg = require('./package.json');
+
+// Checks for available update and returns an instance
+const notifier = updateNotifier({pkg});
+
+// Notify using the built-in convenience method
+notifier.notify();
+
+// `notifier.update` contains some useful info about the update
+console.log(notifier.update);
 
 const schema = {
 	properties: {
@@ -39,3 +50,4 @@ prompt.get(schema, (err, result) => {
 	const dlTimePretty = moment.duration(dlTime, 'seconds');
 	console.log('Your approximate DL Time is: ' + dlTimePretty.humanize(false));
 });
+
