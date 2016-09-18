@@ -1,5 +1,14 @@
 # Change Log
 
+## [v2.2.4](https://github.com/willyb321/dlCalc/tree/v2.2.4) (2016-09-18)
+[Full Changelog](https://github.com/willyb321/dlCalc/compare/v2.2.3...v2.2.4)
+
+## [v2.2.3](https://github.com/willyb321/dlCalc/tree/v2.2.3) (2016-09-18)
+[Full Changelog](https://github.com/willyb321/dlCalc/compare/v2.2.2...v2.2.3)
+
+## [v2.2.2](https://github.com/willyb321/dlCalc/tree/v2.2.2) (2016-09-18)
+[Full Changelog](https://github.com/willyb321/dlCalc/compare/v2.2.1...v2.2.2)
+
 ## [v2.2.1](https://github.com/willyb321/dlCalc/tree/v2.2.1) (2016-09-18)
 [Full Changelog](https://github.com/willyb321/dlCalc/compare/v2.2.0...v2.2.1)
 
