@@ -6,14 +6,8 @@ const moment = require('moment');
 const updateNotifier = require('update-notifier');
 const pkg = require('./package.json');
 
-// Checks for available update and returns an instance
-const notifier = updateNotifier({pkg});
+updateNotifier({pkg}).notify();
 
-// Notify using the built-in convenience method
-notifier.notify();
-
-// `notifier.update` contains some useful info about the update
-console.log(notifier.update);
 
 const schema = {
 	properties: {
