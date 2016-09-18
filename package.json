@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "xo && nyc ava",
-    "preversion": "github_changelog_generator && git commit -a --amend --no-edit"
+    "preversion": "github_changelog_generator && git commit -am 'changelog/version' && git push"
   },
   "files": [
     "index.js",
