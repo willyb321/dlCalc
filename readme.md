@@ -2,6 +2,7 @@
 
 > Calculate DL time in the commandline
 
+![Example](https://raw.githubusercontent.com/willyb321/dlCalc/master/example.png)
 
 ## Install
 
