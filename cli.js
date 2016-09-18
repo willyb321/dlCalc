@@ -8,7 +8,6 @@ const pkg = require('./package.json');
 
 updateNotifier({pkg}).notify();
 
-
 const schema = {
 	properties: {
 		dlSpeed: {
