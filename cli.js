@@ -14,14 +14,14 @@ const schema = {
 			description: 'Download speed in megabytes/s',
 			required: true,
 			message: 'Please use a number.',
-			pattern: /[\d*\.?\d*]/
+			pattern: /[\d*\.?\d*]/ // eslint-disable-line no-useless-escape
 
 		},
 		fileSize: {
 			description: 'File Size in megabytes',
 			required: true,
 			message: 'Please use a number.',
-			pattern: /[\d*\.?\d*]/
+			pattern: /[\d*\.?\d*]/ // eslint-disable-line no-useless-escape
 		}
 	}
 };
